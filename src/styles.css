@@ -1,0 +1,78 @@
+.App {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-size: cover;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  display: block;
+  margin: none;
+}
+
+h1 {
+  transition: all 2ms ease-in-out;
+}
+
+h2,
+#currentTime,
+#currentDescription {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+ul {
+  position: relative;
+  top: -150px;
+  left: 387px;
+  width: 160px;
+}
+
+a {
+  color: #aac5ee;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: overline;
+  cursor: pointer;
+  color: #ec6e4c;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .videoBG {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .videoBG {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .videoBG {
+    display: none;
+  }
+  body {
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/007/348/original/poster.jpg?1618686090");
+    background-size: cover;
+  }
+}

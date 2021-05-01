@@ -1,0 +1,13 @@
+.Footer {
+  margin: 10px auto;
+  margin-bottom: 30px;
+  display: block;
+  text-align: center;
+  color: rgba(44, 47, 70, 0.9);
+  font-style: italic;
+}
+
+a.openSourceLink {
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+.citySearchBar .searchCity {
+  background: rgba(144, 146, 147, 0.2);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.searchCity {
+  padding-left: 10px;
+}
+
+.citySearchBar .searchCity {
+  background: rgba(144, 146, 147, 0.2);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.searchButton,
+.currentCityButton {
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 20px 0px 20px 0px;
+  transition: all 200ms ease-in-out;
+}
+
+.searchButton {
+  background: #677b90;
+}
+
+.searchButton:hover {
+  background: #7a91aa;
+}
+
+.currentCityButton {
+  background: #22313f;
+}
+
+.currentCityButton:hover {
+  background: #375d83;
+}

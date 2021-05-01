@@ -1,0 +1,59 @@
+.MainWeather {
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+.mainTemp {
+  font-size: 100px;
+  margin: none;
+  line-height: 0.5;
+  padding: none;
+  position: relative;
+  top: 32px;
+}
+
+.MainWeather .mainTempEmoji {
+  height: 150px;
+  position: relative;
+  top: 17px;
+  font-size: 72px;
+}
+
+.MainWeather .highTemp {
+  text-align: center;
+  position: relative;
+  top: 15px;
+  font-size: small;
+  color: #ec6e4c;
+}
+
+.MainWeather .lowTemp {
+  line-height: 1;
+  position: relative;
+  bottom: -30px;
+  font-size: small;
+  color: rgb(4, 159, 248);
+}
+
+.MainWeather .nightTemp {
+  color: rgb(4, 159, 248);
+}
+
+.MainWeather div.col {
+  margin-top: none;
+}
+
+.MainWeather .active {
+  color: #ec6e4c;
+  cursor: default;
+}
+
+.MainWeather .active:hover {
+  text-decoration: none;
+}
+
+.MainWeather .conversionLinks {
+  position: relative;
+  top: -28px;
+  font-size: 1.5rem;
+}

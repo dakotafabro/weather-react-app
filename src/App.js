@@ -1,11 +1,17 @@
-import "./App.css";
+import "./styles.css";
+import MainBody from "./MainBody";
+import Footer from "./Footer";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
+      <div>
+        <MainBody />
+      </div>
+
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
