@@ -32,6 +32,7 @@
 
 .searchButton:hover {
   background: #7a91aa;
+  cursor: pointer;
 }
 
 .currentCityButton {
@@ -40,4 +41,5 @@
 
 .currentCityButton:hover {
   background: #375d83;
+  cursor: pointer;
 }

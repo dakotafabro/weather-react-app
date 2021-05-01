@@ -11,7 +11,15 @@ export default function Footer() {
         >
           Open-source code
         </a>{" "}
-        by Dakota Fabro 🇵🇭
+        by{" "}
+        <a
+          href="https://dakotafabro.netlify.app/"
+          title="Dakota Fabro's portfolio"
+          className="openSourceLink"
+        >
+          Dakota Fabro
+        </a>{" "}
+        🇵🇭
       </strong>
       <script src="src/index.js" />
     </div>
